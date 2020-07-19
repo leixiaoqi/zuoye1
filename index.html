@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>zhuye</title>
+<style>
+     body{
+         
+     }
+     #da{
+         width:70%;
+         height: 2800px;
+         /* background-image: url(tupian/beijing.jpg); */
+         background-color: rgb(33, 66, 99);
+         position: relative;
+         left: 15%;
+         border-width: 2px;
+     }
+     #wz{
+         width: 40%;
+         position: absolute;
+         left: 10%;
+         top: 45px;
+         margin: 0px;
+         padding: 0px;
+     }
+     #you1{
+         background-color: rgb(243, 227, 6);
+         width: 39%;
+         height: 200px;
+         position: absolute;
+         left: 51%;
+         top: 35px;
+         opacity: 1;
+     }
+     #you1:hover{
+         opacity: 0.5;
+     }
+     #zuo1{
+        background-color: rgb(241, 177, 0);
+         width: 40%;
+         height: 200px;
+         position: absolute;
+         left: 10%;
+         top: 180px;
+         opacity: 1;
+     }
+     #zuo1:hover{
+         opacity: 0.5;
+        }
+     #you2{
+        background-color: rgb(121, 143, 1);
+         width: 39%;
+         height: 200px;
+         position: absolute;
+         left: 51%;
+         top: 240px;
+         opacity: 1;
+     }
+     #you2:hover{
+         opacity: 0.5;
+     }
+     #zuo2{
+        background-color: rgb(187, 231, 137);
+         width: 40%;
+         height: 200px;
+         position: absolute;
+         left: 10%;
+         top: 390px;
+         opacity: 1;
+     }
+     #zuo2:hover{
+         opacity: 0.5;
+     }
+     #you3{
+         width: 39%;
+         height: 40px;
+         position: absolute;
+         left: 51%;
+         top: 550px;
+         opacity: 1;
+     }
+     .mulu{
+         position: relative;
+         top: 50px;
+         left: 40%;
+     }
+     #xia{
+         width: 80%;
+         height: 30px;
+         position: relative;
+         left: 10%;
+         top: 600px;
+     }
+     
+     }
+     
+     #zuopin{
+         position: absolute;
+         top: 800px;
+     }
+     #zuopinpin{
+         width: 200px;
+         position: absolute;
+         top: 580px;
+         left: 20px;
+     }
+     #jinglili{
+         width: 200px;
+         position: absolute;
+         top: 1250px;
+         left: 20px;
+     }
+     #shenghuohuo{
+         width: 200px;
+         position: absolute;
+         top: 1750px;
+         left: 20px;
+     }
+     #fenge1{
+         position: absolute;
+         top: 570px;
+         left: 190px;
+     }
+     #fenge2{
+         position: absolute;
+         top: 1250px;
+         left: 190px;
+     }
+     #fenge3{
+         position: absolute;
+         top: 1750px;
+         left: 190px;
+     }
+     #imgId{
+         position: absolute;
+         left: 300px;
+     }
+     video{
+         position: absolute;
+         top: 300px;
+         left: 85px;
+     }
+     #jingli{
+        width: 400px;
+        position: absolute;
+        top: 1400px;
+        left: 250px;
+     }
+     #shenghuo{
+         width: 80%;
+         height: 400px;
+         position: absolute;
+         left: 100px;
+         top: 1900px;
+     }
+     #zongyi{
+         width: 200px;
+         height: 130px;  
+         position: relative;
+         left: 100px;     
+     }
+     #baitan{
+         width: 200px;
+         height: 130px;
+         position: relative;
+         left:100px;
+         bottom: 100px;
+     }
+     #liuyanyan{
+        width: 200px;
+         position: absolute;
+         top: 2250px;
+         left: 20px;
+
+     }
+     #fenge4{
+        position: absolute;
+         top: 2250px;
+         left: 190px;
+     }
+     #form1{
+         position: absolute;
+         top: 1750px;
+         left: 50px;
+     }
+     #topp{
+         position: fixed;
+         bottom: 10px;
+         right: 10px;
+     }
+     ul{
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         width: 875px;
+         background-color: rgb(240, 240, 240);
+         position: fixed;
+         top: 0px;
+         left: 195px;
+         height: 30px;
+     }
+     li a{
+         display: block;
+         color: rgb(176, 216, 112);
+         padding: 5px 16px;
+         text-decoration: none;
+     }
+     li a:hover:not(.active){
+         background-color: wheat;
+         color: white;
+     }
+     li{
+         float: left;
+         width: 120px;
+     }
+     #imgId{
+         position: absolute;
+         top: 680px;
+     }
+     video{
+         position: absolute;
+         top: 990px;
+     }
+</style>
+</head>
+<body>
+    <div id="da">
+       
+        <div id="wz">
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black; ">I'm Lei Xiaoqi.</p>
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">I'm in Hangzhou Dianzi University.</p>
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">I'm a student.</p>
+        </div>
+        <div id="you1" >
+            <h1 class="mulu" onclick="scrollToTopjl()">经历</h1>
+        </div>
+        <div id="zuo1" >
+            <h1 class="mulu" onClick="scrollToTopzp()">作品</h1>
+        </div>
+        <div id="you2" >
+            <h1 class="mulu" onclick="scrollToTopsh()">生活</h1>
+        </div>
+        <div id="zuo2" >
+            <h1 class="mulu" onclick="scrollToToply()">留言</h1>
+        </div>
+        <div id="you3">
+            <a href="https://weibo.com/>"><img width="40px" height="40px" style="margin-right: 40px;margin-left: 10px;" src="tupian/weibo.jpg"></a>
+            <a href="https://xin.baidu.com/feedback/official?from=baidu&type=gw"><img width="40px" height="40px" style="margin-right: 40px;" src="tupian/douban.jpg"></a>
+            <a href="https://music.163.com/"><img width="40px" height="40px" style="margin-right: 40px;" src="tupian/wyy.jpg"></a>
+            <a href="https://qzone.qq.com/"><img width="40px" height="40px" src="tupian/qq.jpg"></a>
+        </div>
+        <img id="zuopinpin" src="tupian/zuopinin.png">
+        <img id="fenge1" src="tupian/fengexian.png" width="650px" height="100px"> 
+        <div id="xia">
+            <form id="form1" class="STYLE-NAME">
+                <p  style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">Contact Me<p>
+                <label>
+                <span  style="color:rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">Your Name :</span>
+                <input  placeholder="Your Full Name" />
+                </label><br><br>
+                <label>
+                <span  style="color:rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;"text-shadow: 3px 5px 5px black;>Message :</span>
+                <input placeholder="Your Message to Us"></input>
+                </label>
+                <img src="tupian/next.png" style="position: relative;right: 130px;top:80px; width: 80px;height: 80px;">
+                <label>
+            </form>
+        </div>
+        <div id="zuopin">
+            <img src="作品/1.jpg" height="250px" width="400px" id="imgId" style="display: block;margin: auto;border: 5px solid  rgb(241, 177, 0);border-radius:7px">
+            <video height="215px" width="370px" controls style="border: 5px solid rgb(241, 177, 0);border-radius:7px;">
+                <source src="tupian/vlogvlog.mp4">
+            </video>
+        </div>
+        <img id="jinglili" src="tupian/jinglili.png">
+        <img id="fenge2" src="tupian/fengexian.png" width="650px" height="100px"> 
+        <div id="jingli">
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">2018年9月8号,第一次踏入杭州电子科技大学的校门，开启我的大学生活。大一上学期很积极参加了很多活动，但是都没有什么记忆了，只记得那时候很忙很忙。大二下参加了大广赛和多媒体大赛，获得了省奖和校奖。</p><br>
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">大二上唯一参加的稍微大点的活动是寒假实践，回母校宣讲。那时候疫情还没有很多人在乎，我们在校门口空地上摆了地摊，还去高三的教室一个个讲过去。虽然那时候还是冬天很冷，但是我们还是感到非常开心的。</p><br>
+            <p style="color: rgb(146, 158, 148);font-weight: bold;text-shadow: 3px 5px 5px black;">最近响应国家号召开始摆地摊了，但是这几天都下雨，没有出去摆。摆地摊的时候坐在街边，看着来来往往的行人，还是很惬意的。除此之外，这对我来说也是一个全新的经历，在此之前甚至没有想过我有一天会去摆地摊。</p>
+        </div>
+        <img id="jinglili" src="tupian/jinglili.png">
+        <img id="fenge2" src="tupian/fengexian.png" width="650px" height="100px">
+        <img id="shenghuohuo"  src="tupian/shenghuohuo.png">
+        <img id="fenge3" src="tupian/fengexian.png" width="650px" height="100px"> 
+        <div id="shenghuo">
+        <img id="zongyi" src="zongyi/1.jpg" style="border: 5px solid  rgb(241, 177, 0);border-radius:7px"><button style="position: relative;right: 20px;top: 30px; background-image: url(tupian/IMG_20200716_183529.jpg);" onclick="bh1()"><span>综艺</span></button>
+        <p style="width: 350px;color: rgb(146, 158, 148);text-shadow: 3px 5px 5px black; position: relative; left: 350px; bottom: 150px;font-weight: bold;">《Begin Again》是一档韩国音综。一群在韩国已经功成名就，实力非凡的音乐人，离开熟悉的舞台，站在不是灯光而是日光下，面对完全不认识的游人们，演唱自己的音乐。<br><br>《青春有你2》，看漂亮妹妹们出道</p>
+        
+        <img id="baitan" src="baitan/1.jpg" style="border: 5px solid;border-color: rgb(241, 177, 0);border-radius:7px"><button style="position: relative;right:20px;bottom: 70px; background-image: url(tupian/IMG_20200716_183529.jpg);" onclick="bh2()"><span>日常</span></button>
+        </div>
+        <p style="width: 350px;color: rgb(146, 158, 148);text-shadow: 3px 5px 5px black; position: absolute; left: 450px; top: 2100px;font-weight: bold;">撸猫、摆摊、排周杰伦同款</p>
+        <img id="liuyanyan" src="tupian/liuyan.png">
+        <img id="fenge4" src="tupian/fengexian.png" width="650px" height="100px">
+        <ul>
+            <li><a>主页</a></li>
+            <li onclick="scrollToTopjl()"><a>经历</a></li>
+            <li onClick="scrollToTopzp()"><a>作品</a></li>
+            <li onclick="scrollToTopsh()"><a>生活</a></li>
+            <li onclick="scrollToToply()"><a>留言</a></li>
+        </ul>
+    </div>
+    <div id="topp">
+        <img src="tupian/top.png" style="width: 50px; height: 50px;" onclick="scrolltoTopdb()">
+    </div>
+    
+</body>
+<script type="text/javascript">
+        var i = 1;
+    function bh1(){
+            
+			if( i <2)
+			{
+				i++;
+			}
+			else {i = 1;}
+			var photo = document.getElementById("zongyi");
+            photo.src='zongyi/'+i+'.jpg';
+        }
+    // 综艺点击换图片的函数
+
+        var m = 1;
+    function bh2(){
+            
+			if( m <3)
+			{
+				m++;
+			}
+			else {m = 1;}
+			var photoo = document.getElementById("baitan");
+            photoo.src='baitan/'+m+'.jpg';
+        }
+    // 日常点击换图片的函数
+    window.onload =
+    function (){
+        setInterval(step,1000);
+    }
+    var num = 1;
+    function step() {
+        if (num < 3) {
+            num++;
+        } else {
+            num = 1;
+        }
+        var dom = document.getElementById("imgId");
+        dom.src ='作品/' + num + '.jpg';
+    }
+    // 走马灯
+    
+    function scrollToTopzp(){
+          window.scrollTo(0,600);
+        }
+        // 滚动到作品
+    function scrollToTopjl(){
+        window.scrollTo(0,1200);
+    }
+    // 滚动到经历
+    function scrollToTopsh(){
+          window.scrollTo(0,1800);
+        }
+        // 滚动的生活
+        function scrollToToply(){
+          window.scrollTo(0,2200);
+        }
+        // 滚动到留言
+        function scrolltoTopdb(){
+          window.scrollTo(0,0);
+        }
+        // 滚动到顶部
+    </script>
+</html>
